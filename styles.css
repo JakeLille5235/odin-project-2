@@ -1,0 +1,220 @@
+
+
+.head,.foot{
+    display:flex;
+    flex-direction:row;
+    align-items:flex-start;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    /* Removes white border around other Divs (ie. header) */
+    margin:0;
+    display:flex;
+    flex-direction:column;
+}
+
+.head{
+    display:flex;
+    padding:20px;
+    padding-left:350px;
+    padding-right:350px;
+    flex:1;
+    background:#1F2937;
+    color:white;
+    font-weight:900;
+    /*Header Logo text on left, unordered list elements on right...*/
+    justify-content: space-between;
+    flex-shrink:0;
+}
+
+.head a {
+    font-size:24px;
+    margin-left:auto;
+    flex:1;
+}
+
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content: space-between;
+    gap:20px;
+}
+
+ul li{
+    padding:10px;
+}
+
+.awesome{
+    display:flex;
+    flex-direction: row;
+    background:#1F2937;
+    color:white;
+    font-weight:900;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    flex:1, 5, auto;
+    flex-wrap: wrap;
+
+}
+
+.container-awesome{
+    display:flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+    text-align:left;
+    margin-right:50px;
+}
+
+.container-awesome p{
+    max-width:300px;
+    font-weight:100;
+}
+
+.imgcontain{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items:flex-end;
+}
+img{
+    width:300px;
+    height:auto;
+    margin-right:200px;
+    margin-bottom:20px;
+}
+
+.body{
+    display:flex;
+    flex-direction: column;
+}
+
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.info{
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+    margin:10px;
+    flex:1;
+    font-size:26px;
+    color:#1F2937;
+    font-weight:800;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom:50px;
+
+}
+
+.info .awesome-info{
+    margin-bottom:10px;
+    font-size:30px;
+}
+
+.box-container{
+    display:flex;
+    justify-content: center;
+    gap:10px;
+}
+.box{
+    border:3px solid lightblue;
+    border-radius:6px;
+    width:100px;
+    height:100px;
+    padding:16px;
+    margin:16px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.info-text{
+    display:flex;
+    justify-content:center;
+    gap:30px;;
+    flex:0,1,auto;
+}
+
+.infotxt{
+    font-size:16px;
+    font-weight:100;
+    width:150px;
+}
+
+.quote-container{
+    background:lightgray;
+    display:flex;
+    flex-direction:column;
+    padding:60px;
+    align-items:center;
+}
+
+.button{
+    border: 2px solid white;
+    background-color:maroon;
+    color:white;
+    border-radius:5px;
+    padding:5px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:800;
+}
+
+.quote-container a{
+    max-width:700px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.call2action{
+    background:white;
+    padding:60px;
+    display:flex;
+    justify-content: center;
+}
+
+.bluebox{
+    background:purple;
+    padding:40px;
+    border:1px solid lightskyblue;
+    border-radius: 16px;
+    width:750px;
+    display:flex;
+    justify-content: center;
+    gap:100px;
+}
+.txtbluebox{
+    display:flex;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:100;
+    color:white;
+}
+.lgfont{
+    font-size:20px;
+    font-weight:800;
+}
+.singup{
+    background:transparent;
+    border:1px solid white;
+    border-radius: 12px;
+    color:white;
+    padding:10px;
+}
+
+.foot{
+    padding:60px;
+    background:#1F2937;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    
+} 
+.foot a{
+    text-decoration: none;
+    color:white;
+    font-size:24px;
+}
